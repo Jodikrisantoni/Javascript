@@ -4,10 +4,10 @@ function jumahVolumeDuaKubus(a, b) {
     var volumeB;
     var total; 
 
-    VolumeA = a * a * a;
-    volumeB = b * b * b;
+    var VolumeA = a * a * a;
+    var volumeB = b * b * b;
 
-    total = VolumeA + volumeB;
+    var total = VolumeA + volumeB;
 
     return total;
 }
