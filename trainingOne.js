@@ -13,7 +13,8 @@ var passengerin = function(passengername, passenger){
                 return passenger;
             }
             else if (passenger[i] == passengername){
-                console.log(passengername+' already in car')
+                console.log(passengername+' lready in car')
+                return passenger;
             }
             else if ( i == passenger.length - 1 ) {
                 passenger.push(passengername);
