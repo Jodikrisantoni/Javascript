@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {text-align: center;}
+        .body-color {background-color: aquamarine;}
+        .box {
+            width: 25px;
+            height: 25px;
+            margin: 10px auto;
+        }
+        .red {background-color: red;}
+        .green {background-color: green;}
+        .blue {background-color: blue;}
+    </style>
+    <title>DOM COLOR</title>
 </head>
 <body>
+    <h1>Playing with Color</h1>
+    <button type="button" id="ColorChange">Change your Color</button>
     
+    <br><br>
+
+    <div class="box red"></div>
+    <input type="range" name="Sred" min="0" max="255">
+    <div class="box green"></div>
+    <input type="range" name="Sgreen" min="0" max="255">
+    <div class="box blue"></div>
+    <input type="range" name="Sblue" min="0" max="255">
+<script src="DOMcolor.js"></script>
 </body>
 </html>
