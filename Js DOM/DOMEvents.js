@@ -37,5 +37,13 @@ p1.addEventListener( 'click', function(){
 p1.addEventListener( 'click', function(){
     p1.style.color = 'red';
 });
+ 
 
-
+// mouse Event - mouse enter
+// Keyboard Event
+// resources Event 
+// view Event 
+// form Event
+// CSS Animation & transition Event 
+// Drag & Drop Event
+// dll
