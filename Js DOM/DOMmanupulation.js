@@ -11,7 +11,7 @@ title.style.color = 'lightblue';
 title.style.backgroundColor = 'pink';
 
 //getAttribute, untuk mendapatkan attribute dielement tertentu
-//setAttribute, untuk memberikan attribute di element tertentu
+//setAttribute, untuk memberikan attribute di element tertent dengan menggantikan attribut baru
 //removeAttribute, untuk melepaskan attribute yang ada
 title.setAttribute('class','jodi');
 title.getAttribute('class');
