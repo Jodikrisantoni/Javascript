@@ -64,3 +64,7 @@ body {
 .card:hover .close {
     color: red;
 }
+
+.close {
+    text-decoration: none;
+}
