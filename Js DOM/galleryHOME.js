@@ -11,8 +11,8 @@ container.addEventListener('click', function(e){
         }, 500);
         
         catpic.forEach(function(catcat){
-            if(catpic.classList.contains('active')){
-                catpic.classList.remove('active');
+            if(catcat.classList.contains('active')){
+                catcat.classList.remove('active');
             }       
         });
         
