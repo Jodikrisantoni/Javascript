@@ -13,9 +13,9 @@ container.addEventListener('click', function(e){
         catpic.forEach(function(catcat){
             if(catcat.classList.contains('active')){
                 catcat.classList.remove('active');
-            }       
+            };
         });
-        
         e.target.classList.add('active');
     };
 });
+

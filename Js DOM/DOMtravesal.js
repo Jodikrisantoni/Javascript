@@ -45,4 +45,5 @@ container.addEventListener('click', function(event){
         event.target.parentElement.style.display = 'none';
         event.preventDefault();
     }
-})
+});
+
