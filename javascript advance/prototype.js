@@ -75,4 +75,4 @@ let angka = new Array();
 
 function Array() {
     this = Object.create(Array.prtotype);
-}
+} 

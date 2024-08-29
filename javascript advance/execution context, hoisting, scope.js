@@ -39,16 +39,45 @@
 
 // console.log(cetakURL(username));
 
+////////////////////////////////////////////////////////////
+// maka yang tampil aka abc
+// namun akan terjadi tumpukkan eksekusi
 // kasus 3
+// function a(){
+//     console.log('ini a');
 
-function a(){
-    console.log('ini a');
+//     function b(){
+//         console.log (' ini b');
 
-    function b(){
-        console.log (' ini b');
+//         function c (){
+//             console.log('ini c');
+//         };
+//         c();
 
-        function c (){
-            console.log('ini c')
-        }
-    }
+//     };
+//     b();
+// };
+// a();
+
+////////////////////////////////////////////////////
+//kasus 4 latihan
+//
+
+function satu(){
+    var nama ='a'
+    console.log(nama);
+};
+
+function dua(){
+    console.log(nama);
 }
+
+console.log(nama);
+var nama = 'b';
+satu();
+dua('c');
+console.log(nama);
+
+
+// maka akan di ditampilkan adalah undifined, a, b, b
+/////////////////////////////////////////////////////
