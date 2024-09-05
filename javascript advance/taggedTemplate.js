@@ -35,3 +35,9 @@ function highlight(string, ...values){
 const str =  highlight`halo nama saya ${nama}, saya umur ${umur}, dengan email ${email}`;
 
 document.body.innerHTML = str;
+
+// penggunaan lain dari tag tamplate
+
+// escaping HTML Tags
+// Trnaslation & Internastionalization
+// styled Components
