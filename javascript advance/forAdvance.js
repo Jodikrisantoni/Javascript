@@ -53,6 +53,5 @@ const mahasiswa = {
     email : 'jody201542@gmail.com'
 };
 for (m in mahasiswa){
-    console.log(m);
-    
+    console.log(mahasiswa[m]);
 }
