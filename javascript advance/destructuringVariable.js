@@ -114,7 +114,7 @@ const mhs = {
     umur : 24,
     email : 'jody201542@gmail.com'
 }
-function getID({id, nama}){
+function getID({id, nama}){  //menangkap satu element dengan tutup kurawal
     return id;
 }
 console.log(getID(mhs));
