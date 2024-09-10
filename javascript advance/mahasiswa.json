@@ -1,0 +1,23 @@
+[
+    {
+        "nama" : "jodi",
+        "nim" : "b1301201135",
+        "email" : "jody222@gmail.com",
+        "jurusan" : "akuntansi",
+        "idDosenWall" : "1"
+     },
+     {
+        "nama" : "kris",
+        "nim" : "b1301201136",
+        "email" : "kris222@gmail.com",
+        "jurusan" : "akuntansi",
+        "idDosenWall": "2"
+     },
+     {
+        "nama" : "antoni",
+        "nim" : "b1301201137",
+        "email" : "antoni222@gmail.com",
+        "jurusan" : "akuntansi",
+        "idDosenWall" : "1"
+     }
+]
